@@ -1,4 +1,4 @@
-{% set version = "0.9.0" %}
+{% set version = "0.10.0" %}
 
 package:
   name: aioice
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/a/aioice/aioice-{{ version }}.tar.gz
-  sha256: fc2401b1c4b6e19372eaaeaa28fd1bd9cbf6b0e412e48625297c53b495eebd1e
+  sha256: 25dfdcbacb89de0e2eac41e96a872499c37a9eb74fa22a0e92d8ac1a0a9141af
 
 build:
   number: 0
@@ -31,7 +31,7 @@ test:
   requires:
     - pip
     - python ={{ python_min }}
-  
+
 
 about:
   home: https://github.com/aiortc/aioice
