@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.12.0"
+  version: "0.12.1"
 
 package:
   name: aioice
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/a/aioice/aioice-${{ version }}.tar.gz
-  sha256: ceafcf762d569784e0b8b2dc5361661926fb079f375de4493d52387d8be7b06d
+  sha256: 0986585f5bc3848392ac4aa9207e1b311aa605ca3c88c3f68e33916b9c2059cc
 
 build:
   number: 0
